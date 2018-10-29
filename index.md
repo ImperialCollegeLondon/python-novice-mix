@@ -30,7 +30,7 @@ Please note that this lesson uses Python 3 rather than Python 2.
 >
 > 2. Learners must install Python before the class starts.
 >
-> 3. Learners must get the gapminder data before class starts:
+> 3. Learners must get the inflammation data before class starts:
 >    please download and unzip the file 
 >    [python-novice-inflammation-data.zip]({{page.root}}/data/python-novice-inflammation-data.zip).
 >

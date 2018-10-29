@@ -73,8 +73,7 @@ If you run into any difficulties, please request help before the workshop begins
 
 ## Getting the Data
 
-The data we will be using is taken from the [gapminder][gapminder] dataset.
-To obtain it, download and unzip the file 
+To obtain the data we will be using, download and unzip the file 
 [python-novice-inflammation-data.zip]({{page.root}}/files/python-novice-inflammation-data.zip).
 In order to follow the presented material, you should launch a Jupyter 
 notebook in the root directory (see [Starting Python](#Starting-Python)).
@@ -108,7 +107,6 @@ $ python
 [continuum-mac]: https://www.anaconda.com/download/#macos
 [continuum-linux]: https://www.anaconda.com/download/#linux
 [continuum-windows]: https://www.anaconda.com/download/#windows
-[gapminder]: http://gapminder.org
 [jupyter]: http://jupyter.org/
 [jupyter-install]: http://jupyter.readthedocs.io/en/latest/install.html#optional-for-experienced-python-developers-installing-jupyter-with-pip
 [python]: https://python.org
