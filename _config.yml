@@ -12,6 +12,9 @@ carpentry: "swc"
 # Overall title for pages.
 title: "Programming in Python"
 
+# This should get the various github site variables to resolve on gitlab
+plugins:
+  - "jekyll-gitlab-metadata"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
