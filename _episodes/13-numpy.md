@@ -525,6 +525,33 @@ print(numpy.mean(data, axis=1))
 
 which is the average inflammation per patient across all days.
 
+> ## Encapsulation
+>
+> Fill in the blanks to create a function that takes a single filename, containing comma separated values, as an argument,
+> loads the data in the file named by the argument,
+> and returns the minimum value in that data.
+>
+> ~~~
+> import numpy
+>
+> def min_in_data(____):
+>     data = ____
+>     return ____
+> ~~~
+> {: .python}
+> > ## Solution
+> >
+> > ~~~
+> > import numpy
+> > 
+> > def min_in_data(filename):
+> >     data = numpy.loadtxt(fname=filename, delimiter=',')
+> >     return data.min()
+> > ~~~
+> {: .python}
+> {: .solution}
+{: .challenge}
+
 > ## Stacking Arrays
 >
 > Arrays can be concatenated and stacked on top of one another,

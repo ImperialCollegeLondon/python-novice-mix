@@ -28,7 +28,7 @@ turn out to be anything but when we have to explain them precisely.
 
 *   [Jupyter](https://jupyter.org) is the home of the Jupyter Notebook.
 
-*   [Pandas](https://pandas.pydata.org) is the home of the Pandas data library.
+*   [Pandas](https://pandas.pydata.org) is the home of the Pandas data library which is useful when processing larger, more complex data files.
 
 *   Stack Overflow's [general Python section](http://stackoverflow.com/questions/tagged/python)
     can be helpful,

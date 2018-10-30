@@ -191,3 +191,31 @@ where the maxima are a bit less regular, but the minima are consistently zero.
 > > {: .language-python}
 >{: .solution}
 {: .challenge}
+
+> ## Processing Small Files
+>
+> Modify this program so that it only processes files with fewer than 50 records.
+>
+> ~~~
+> import glob
+> import numpy
+> for filename in glob.glob('data/*.csv'):
+>     contents = numpy.loadtxt(fname=filename, delimiter=',')
+>     ____:
+>         print(filename, len(contents))
+> ~~~
+> {: .python}
+> > ## Solution
+> >
+> > ~~~
+> > import glob
+> > import numpy
+> > for filename in glob.glob('data/*.csv'):
+> >     contents = numpy.loadtxt(fname=filename, delimiter=',')
+> >     if len(contents)<50:
+> >         print(filename, len(contents))
+> > ~~~
+> > {: .python}
+> {: .solution}
+{: .challenge}
+
