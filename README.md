@@ -1,25 +1,19 @@
-[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/) 
- [![Slack Status](https://img.shields.io/badge/Slack_Channel-swc--py--gapminder-E01563.svg)](https://swcarpentry.slack.com/messages/C9X4W03KL) 
+[![pipline status](https://gitlab.com/ImperialSC/python-novice-mix/badges/gh-pages/build.svg)](https://gitlab.com/ImperialSC/python-novice-mix/commits/gh-pages)
 
-python-novice-gapminder
-=======================
+python-novice-mix
+=================
 
-Introduction to Python for non-programmers with a focus on plotting and data analysis.
-Please see <https://swcarpentry.github.io/python-novice-gapminder/>
-for a rendered version of this material,
-[the lesson template documentation][lesson-example]
-for instructions on formatting, building, and submitting material,
-or run `make` in this directory for a list of helpful commands.
+<https://imperialsc.gitlab.io/python-novice-mix>
 
-Maintainer(s):
+This is an introduction to Python for non-programmers based on content from
+the two software carpentry courses:
+[python-novice-gapminder][python-novice-gapminder] and
+[python-novice-inflammation][python-novice-inflammation], where the gentler
+introduction of the former course is favoured and forms the core of this
+course, while the focus on the simpler numpy rather than pandas of the latter
+is used for the second half. Some of the timings and exercises associated with
+each episode have been modified to accommodate this restructuring.
 
-* [Allen Lee][lee-allen]
-* [Nathan Moore][moore-nathan]
-* [Sourav Singh][singh-sourav]
-* [Olav Vahtras][olav-vahtras]
 
-[lee-allen]: https://software-carpentry.org/team/#lee-allen
-[lesson-example]: https://carpentries.github.io/lesson-example/
-[moore-nathan]: https://software-carpentry.org/team/#moore_nathan
-[singh-sourav]: https://software-carpentry.org/team/#singh-sourav
-[olav-vahtras]: https://software-carpentry.org/team/#vahtras_olav
+[python-novice-inflammation]: https://github.com/swcarpentry/python-novice-inflammation
+[python-novice-gapminder]: https://github.com/swcarpentry/python-novice-gapminder
