@@ -16,6 +16,9 @@ title: "Programming in Python"
 plugins:
   - "jekyll-gitlab-metadata"
 
+# Added to get the favicons working on gitlab
+baseurl: "/python-novice-mix"
+
 #------------------------------------------------------------
 # Generic settings (should not need to change).
 #------------------------------------------------------------
