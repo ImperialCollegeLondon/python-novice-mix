@@ -260,32 +260,30 @@ result of print is None
 > ~~~
 > {: .python}
 > > ## Solution
-> > 1. 
-> > ~~~
-> > print(max(easy_string))
-> > ~~~
-> > {: .python}
-> > ~~~
-> > c
-> > ~~~
-> > {: .output}
-> > ~~~
-> > print(max(rich, poor))
-> > ~~~
-> > {: .python}
-> > ~~~
-> > tin
-> > ~~~
-> > {: .output}
-> > ~~~
-> > print(max(len(rich), len(poor)))
-> > ~~~
-> > {: .python}
-> > ~~~
-> > 4
-> > ~~~
-> > {: .output}
-> > 
+> > 1. ~~~
+> >    print(max(easy_string))
+> >    ~~~
+> >    {: .python}
+> >    ~~~
+> >    c
+> >    ~~~
+> >    {: .output}
+> >    ~~~
+> >    print(max(rich, poor))
+> >    ~~~
+> >    {: .python}
+> >    ~~~
+> >    tin
+> >    ~~~
+> >    {: .output}
+> >    ~~~
+> >    print(max(len(rich), len(poor)))
+> >    ~~~
+> >    {: .python}
+> >    ~~~
+> >    4
+> >    ~~~
+> >    {: .output}
 > > 2. It throws a TypeError. The command is trying to run `max(4, 'tin')` and you can't compare
 > >    a string and an integer
 > {: .solution}
