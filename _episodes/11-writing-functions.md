@@ -290,7 +290,7 @@ result of call is: None
 >
 > 1.  What does `print_date(day=1, month=2, year=2003)` print?
 > 2.  When and why is it useful to call functions this way?
-> {: .python}
+>
 > > ## Solution
 > > 
 > > 1. `2003/2/1`

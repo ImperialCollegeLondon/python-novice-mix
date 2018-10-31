@@ -344,7 +344,7 @@ IndexError: string index out of range
 > > lithium
 > > 
 > > ~~~
-> > {: .python}
+> > {: .output}
 > {: .solution}
 {: .challenge}
 
@@ -374,12 +374,12 @@ IndexError: string index out of range
 > > ~~~
 > > letters is ['g', 'o', 'l', 'd'] and result is ['d', 'g', 'l', 'o']
 > > ~~~
-> > {: .python}
+> > {: .output}
 > > Program B prints
 > > ~~~
 > > letters is ['d', 'g', 'l', 'o'] and result is None
 > > ~~~
-> > {: .python}
+> > {: .output}
 > > `sorted(letters)` returns a sorted copy of the list `letters` (the original
 > > list `letters` remains unchanged), while `letters.sort()` sorts the list
 > > `letters` in-place and does not return anything.
@@ -414,11 +414,12 @@ IndexError: string index out of range
 > > ~~~
 > > new is ['D', 'o', 'l', 'd'] and old is ['D', 'o', 'l', 'd']
 > > ~~~
+> > {: .output}
 > > Program B prints
 > > ~~~
 > > new is ['D', 'o', 'l', 'd'] and old is ['g', 'o', 'l', 'd']
 > > ~~~
-> > {: .python}
+> > {: .output}
 > > `new = old` makes `new` a reference to the list `old`; `new` and `old` point
 > > towards the same object.
 > > 
