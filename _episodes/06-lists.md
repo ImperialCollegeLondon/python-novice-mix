@@ -319,7 +319,7 @@ IndexError: string index out of range
 > > furn
 > > eniroulf
 > > ~~~
-> > {: .python}
+> > {: .output}
 > > 1. `stride` is the step size of the slice
 > > 2. The slice `1::2` selects all even-numbered items from a collection: it starts
 > >    with element `1` (which is the second element, since indexing starts at `0`),
