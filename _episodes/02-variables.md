@@ -307,10 +307,13 @@ print(ewr_422_yY, 'is', flabadab, 'years old')
 > print('atom_name[1:3] is:', atom_name[1:3])
 > ~~~
 > {: .python}
-> ~~~
-> atom_name[1:3] is: ar
-> ~~~
-> {: .output}
+> > ## Solution
+> > 
+> > ~~~
+> > atom_name[1:3] is: ar
+> > ~~~
+> > {: .output}
+> {: .solution}
 >
 > 1.  What does `thing[low:high]` do?
 > 2.  What does `thing[low:]` (without a value after the colon) do?
