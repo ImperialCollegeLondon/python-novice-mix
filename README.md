@@ -1,9 +1,7 @@
-[![pipline status](https://gitlab.com/ImperialSC/python-novice-mix/badges/gh-pages/build.svg)](https://gitlab.com/ImperialSC/python-novice-mix/commits/gh-pages)
-
 python-novice-mix
 =================
 
-<https://imperialsc.gitlab.io/python-novice-mix>
+<https://imperialcollegelondon.github.io/python-novice-mix/>
 
 This is an introduction to Python for non-programmers based on content from
 the two software carpentry courses:
